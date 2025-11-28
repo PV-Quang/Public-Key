@@ -1,4 +1,9 @@
 ## PUBLIC KEY - CLOUD TEAM
+> Generate ed25519 SSH Key 
+``` shell
+ssh-keygen -t ed25519 -a 100 -C "example@email.com" -f ~/.ssh/id_ed25519
+```
+
 
 > Full Team
 ``` shell
